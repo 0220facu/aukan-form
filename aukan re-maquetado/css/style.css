@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.bg {
+    background-image: url(../img/bg-aukan.png);
+    background-size: cover;
+}
+
+.logo{
+    width: 300px;
+}
+
+a:hover,
+a:active {
+    color: #020A96;
+    text-decoration: none;
+}
+
+.text-theme {
+    color: #BA1E1C;
+}
+
+.bg-theme {
+    background-color: #BA1E1C;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark-blue {
+    background-color: #29295D;
+}
+
+.bg-dark-gray {
+    background-color: #5D5C61;
+}
+
+.header-style {
+    color: white;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+    background-image: url(../img/header-fnd-aukan.jpg);
+}
+
+
+.form-style {
+    width: 28%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+@media(max-width:900px){
+    .form-style {
+        width:100%;
+        position: static;
+        margin-left: 20px;
+    }
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.needs-validation .form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+
+
