@@ -8,7 +8,9 @@ body {
     background-image: url(../img/bg-aukan.png);
     background-size: cover;
 }
-
+.rounded-3{
+    border-radius: 20px !important;
+}
 .logo{
     width: 300px;
 }
@@ -48,18 +50,29 @@ a:active {
     background-repeat: no-repeat;
     background-position: top center;
     background-color: #DDDDDD;
+    background-size:100% 25%;
 }
-
+.w-60{
+    width:60% !important
+}
 form {
     text-align: left;
     color:#333333;
+        
 }
-@media(max-width:900px){
+@media(max-width:768px){
     .form-style {
         width:100%;
         position: static;
         margin-left: 20px;
     }
+    .body-bg{
+        background-size:100% 12%;
+    }
+    .form-container{
+        width:80% !important
+    }
+
 }
 
 .icon {
