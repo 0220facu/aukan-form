@@ -4,15 +4,16 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-.bg {
+#main-text {
     background-image: url(../img/bg-aukan.png);
-    background-size: cover;
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
 .rounded-3{
     border-radius: 20px !important;
 }
-.logo{
-    width: 300px;
+.text-blue {
+    color: #282A5D
 }
 
 a:hover,
